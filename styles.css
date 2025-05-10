@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: 40px auto;
+  }
+
+  .case {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #a77b79;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:a ;
+    transition: background-color 0.3s;
+  }
+
+  .case:hover {
+    background-color: #fbc9c9;
+  }
+
+  #reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
